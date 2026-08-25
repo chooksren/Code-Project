@@ -1,2 +1,155 @@
-# Code-Project
-Code Project
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>🏆 Official Scheduling System</title>
+     <style>
+         /* Basic styling */
+         * {
+             box-sizing: border-box;
+             margin: 0;
+             padding: 0;
+             font-family: Arial, sans-serif;
+         }
+         body {
+             background: #f0f4f8;
+             color: #333;
+             line-height: 1.6;
+             padding: 20px;
+             max-width: 1000px;
+             margin: 0 auto;
+         }
+         header {
+             background: #2563eb;
+             color: white;
+             padding: 20px;
+             text-align: center;
+             border-radius: 8px;
+             margin-bottom: 20px;
+         }
+         nav {
+             background: #1e40af;
+             padding: 12px;
+             border-radius: 8px;
+             margin-bottom: 20px;
+         }
+         nav a {
+             color: white;
+             margin: 0 15px;
+             text-decoration: none;
+             font-weight: bold;
+         }
+         nav a:hover {
+             color: #facc15;
+         }
+         main {
+             background: white;
+             padding: 25px;
+             border-radius: 8px;
+             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+             margin-bottom: 20px;
+         }
+         h2 {
+             color: #2563eb;
+             margin-bottom: 15px;
+             border-bottom: 2px solid #e5e7eb;
+             padding-bottom: 8px;
+         }
+         p {
+             margin-bottom: 12px;
+         }
+         ul {
+             margin-left: 25px;
+             margin-bottom: 15px;
+         }
+         form {
+             margin-top: 15px;
+         }
+         input, button {
+             padding: 10px;
+             margin: 5px 0;
+             width: 100%;
+             max-width: 400px;
+             border: 1px solid #ccc;
+             border-radius: 4px;
+         }
+         button {
+             background: #2563eb;
+             color: white;
+             border: none;
+             cursor: pointer;
+             font-size: 16px;
+             margin-top: 10px;
+         }
+         button:hover {
+             background: #1d4ed8;
+         }
+         footer {
+             text-align: center;
+             color: #6b7280;
+             font-size: 14px;
+             margin-top: 30px;
+             padding-top: 15px;
+             border-top: 1px solid #ddd;
+         }
+     </style>
+ </head>
+ <body>
+     <!-- Header -->
+     <header>
+         <h1>🏆 Official Assignment & Scheduling System</h1>
+         <p>Manage Sports Referees, Matches & Assignments Easily</p>
+     </header>
+     <!-- Navigation -->
+     <nav>
+         <a href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#features">Features</a>
+         <a href="#contact">Contact</a>
+     </nav>
+     <!-- Main Content -->
+     <main>
+         <section id="home">
+             <h2>Welcome!</h2>
+             <p>This is a simple website for managing sports officials, matches, and scheduling their assignments.</p>
+             <p>Our system helps you:</p>
+             <ul>
+                 <li>Register referees and officials</li>
+                 <li>Add match details</li>
+                 <li>Auto-assign partners for every game</li>
+                 <li>Prevent double-booking</li>
+             </ul>
+         </section>
+         <section id="about">
+             <h2>About This System</h2>
+             <p>This system was created to solve the problem of scheduling referees and assigning officiating partners for matches. It ensures fairness, accuracy, and no conflicts.</p>
+         </section>
+         <section id="features">
+             <h2>Key Features</h2>
+             <ul>
+                 <li>✅ Register Officials with Level & Sport</li>
+                 <li>✅ Add Matches with Date, Time & Venue</li>
+                 <li>✅ Auto-Assign Lead & Partner Officials</li>
+                 <li>✅ Check Availability & Prevent Conflicts</li>
+                 <li>✅ View Full Schedule</li>
+             </ul>
+         </section>
+         <section id="contact">
+             <h2>Contact Us</h2>
+             <p>Have questions? Send us a message:</p>
+             <form>
+                 <input type="text" placeholder="Your Name" required>
+                 <input type="email" placeholder="Your Email" required>
+                 <input type="text" placeholder="Subject">
+                 <textarea rows="4" placeholder="Your Message" required style="width:100%; max-width:400px; padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:4px;"></textarea>
+                 <button type="submit">Send Message</button>
+             </form>
+         </section>
+     </main>
+     <!-- Footer -->
+     <footer>
+         &copy; 2026 Official Scheduling System | All Rights Reserved
+     </footer>
+ </body>
+ </html>
